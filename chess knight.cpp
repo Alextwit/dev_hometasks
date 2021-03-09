@@ -5,24 +5,32 @@ using namespace std;
 
 int main() 
 {
-	int x1, x2, y1, y2;
-	cout << "enter first number(1..8): " << endl;
-	cin >> x1;
-	cout << "enter second number(1..8): " << endl;
-	cin >> x2;
-	cout << "enter first number(1..8): " << endl;
-	cin >> y1;
-	cout << "enter second number(1..8): " << endl;
-	cin >> y2;
-	if (((x1 >= 1) && (x1 <= 8)) && ((x2 >= 1) && (x2 <= 8)) && ((y1 >= 1) && (y1 <= 8)) && ((y2 >= 1) && (y2 <= 8))) {
-		if (((abs(x1 - y1) == 2) && (abs(x2 - y2) == 1)) || ((abs(x1 - y1) == 1) && (abs(x2 - y2) == 2))) {
-			cout << "they can" << endl;
+	int FirstCoorOfFirstKnight, SecondCoorOfFirstKnight, FirstCoorOfSecondKnight, SecondCoorOfSecondKnight;
+	
+	cout << "Enter coordinates of two chess knights" << endl;
+	cout << endl;
+	cout << "enter the first coordinate of the first chess knight: " << endl;
+	cin >> FirstCoorOfFirstKnight;
+	cout << "enter the second coordinate of the first chess knight: " << endl;
+	cin >> SecondCoorOfFirstKnight;
+	cout << "enter the first coordinate of the second chess knight: " << endl;
+	cin >> FirstCoorOfSecondKnight;
+	cout << "enter the second coordinate of the second chess knight: " << endl;
+	cin >> SecondCoorOfSecondKnight;
+	
+	if (((FirstCoorOfFirstKnight >= 1) && (FirstCoorOfFirstKnight <= 8)) && ((SecondCoorOfFirstKnight >= 1) && 
+	(SecondCoorOfFirstKnight <= 8)) && ((FirstCoorOfSecondKnight >= 1) && (FirstCoorOfSecondKnight <= 8)) && 
+	((SecondCoorOfSecondKnight >= 1) && (SecondCoorOfSecondKnight <= 8))) {
+		if (((abs(FirstCoorOfFirstKnight - FirstCoorOfSecondKnight) == 2) && 
+		(abs(SecondCoorOfFirstKnight - SecondCoorOfSecondKnight) == 1)) || 
+		((abs(FirstCoorOfFirstKnight - FirstCoorOfSecondKnight) == 1) && 
+		(abs(SecondCoorOfFirstKnight - SecondCoorOfSecondKnight) == 2))) {
+			cout << "they can beat each other" << endl;
 		}
 		else {
-			cout << "they can not" << endl;
+			cout << "they can not beat each other" << endl;
 		}
-		} 
-	else {
+	} else {
 		cout << "wrong numbers" << endl;
 	}
 	
