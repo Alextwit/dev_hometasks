@@ -4,20 +4,24 @@
 using namespace std;
 
 int main() {
-	int x1 = 0, x2 = 0, x3 = 0;
+	int FirstSide = 0, SecondSide = 0, ThirdSide = 0;
 	
-	cout << "enter first number: ";
-	cin >> x1;
-	cout << "enter second number: ";
-	cin >> x2;
-	cout << "enter third number: ";
-	cin >> x3;
+	cout << "enter first side: ";
+	cin >> FirstSide;
+	cout << "enter second side: ";
+	cin >> SecondSide;
+	cout << "enter third side: ";
+	cin >> ThirdSide;
 	
-	if (x1 == x2 && x2 == x3) {
+	if (FirstSide == SecondSide && SecondSide == ThirdSide) {
 		cout << "triangle is equilateral" << endl;
-	} else if ((x1 == x2 && x2 != x3) || (x2 == x3 && x2 != x1) || (x1 == x3 && x3 != x2)) {
+	} else if ((FirstSide == SecondSide && SecondSide != ThirdSide) || 
+	(SecondSide == ThirdSide && SecondSide != FirstSide) || 
+	(FirstSide == ThirdSide && ThirdSide != SecondSide)) {
 		cout << "triangle is isosceles" << endl;
-	} else if ((x1 == sqrt(pow(x2, 2) + pow(x3, 2))) || (x2 == sqrt(pow(x1, 2) + pow(x3, 2))) || (x3 == sqrt(pow(x1, 2) + pow(x2, 2)))) {
+	} else if ((FirstSide == sqrt(pow(SecondSide, 2) + pow(ThirdSide, 2))) || 
+	(SecondSide == sqrt(pow(FirstSide, 2) + pow(ThirdSide, 2))) || 
+	(ThirdSide == sqrt(pow(FirstSide, 2) + pow(SecondSide, 2)))) {
 		cout << "triangle is rectangular" << endl;
 	} else {
 		cout << "triangle is general view" << endl;
