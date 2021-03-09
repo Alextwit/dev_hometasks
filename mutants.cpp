@@ -4,25 +4,25 @@ using namespace std;
 
 int main() 
 {
-	double m, p, n, days, rest;
-	days = 1;
+	double AttackingMutants, PercentPerDay, DestroyedPerDay, RestAfterFirstDay;
+	int DaysToDestroy = 1;
 	
 	cout << "enter number of attacking mutants: " << endl;
-	cin >> m;
+	cin >> AttackingMutants;
 	cout << "enter breeding percentage: " << endl;
-	cin >> p;
+	cin >> PercentPerDay;
 	cout << "enter daily destruction: " << endl;
-	cin >> n;
+	cin >> DestroyedPerDay;
 	
-	rest = m - n; //  ostatok posle pervogo dnya
+	RestAfterFirstDay = AttackingMutants - DestroyedPerDay;
 	
-	while (rest >= 0) {
-		rest = ((rest + (rest * (p / 100))) - n);
-		days++;
+	while (RestAfterFirstDay >= 0) {
+		RestAfterFirstDay = ((RestAfterFirstDay + (RestAfterFirstDay * (PercentPerDay / 100))) - DestroyedPerDay);
+		DaysToDestroy++;
 		
 	}
 	
-	cout << "all mutants will be destroyed in " << days << " day(s)" << endl;
+	cout << "all mutants will be destroyed in " << DaysToDestroy << " day(s)" << endl;
 	
 	return 0;
 }
