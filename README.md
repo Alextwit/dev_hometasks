@@ -1,14 +1,15 @@
-# Домашние задания
+# Hometasks
 
-Задания к 04.03.2021
-  1. МУТАНТЫ. Ночью на Минск напало m мутантов. Каждую ночь они размножаются на p процентов. Каждый день коммунальные службы Минска уничтожают n мутантов. Через сколько суток работники ЖЭСа отпразднуют победу над мутантами? [Решение](https://github.com/Alextwit/dev_incubator/blob/main/mutants.cpp)
-  2. КОНИ. Вводим 4 целых числа. это координаты двух коней на шахматной доске. Бьют ли они друг друга? [Решение](https://github.com/Alextwit/dev_incubator/blob/main/chess%20knight.cpp)
-  3. 2->10. Переведите число из двоичной системы в десятичную. [Решение](https://github.com/Alextwit/dev_incubator/blob/main/fromBinToDec.cpp)
+Tasks by 04.03.2021
+  1. Mutants. At night Minsk was attacked by m mutants. They multiply by p percent every night. Every day the municipal services of Minsk destroy n mutants. How many days will the workers of the housing department celebrate the victory over the mutants? [Solution](https://github.com/Alextwit/dev_incubator/blob/main/mutants.cpp)
+  2. Chess knights. Enter 4 integers. these are the coordinates of the two knights on the chessboard. Do they beat each other? [Solution](https://github.com/Alextwit/dev_incubator/blob/main/chess%20knight.cpp)
+  3. 2->10. Convert a number from binary to decimal. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/fromBinToDec.cpp)
 
-Задания к 08.03.2021
-  1. НОК. Найдите наименьшее общее кратное двух натуральных чисел. [Решение](https://github.com/Alextwit/dev_incubator/blob/main/NOK.cpp)
-  2. ТРЕУГОЛЬНИК. Заданы три числа. Выясните,  какого вида треугольник с такими длинами сторон: равносторонний, прямоугольный, равнобедренный или общего вида. [Решение](https://github.com/Alextwit/dev_incubator/blob/main/Triangle.cpp)
+Tasks by 08.03.2021
+  1. Least common multiple. Find the least common multiple of two natural numbers. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/NOK.cpp)
+  2. Triangle. Three numbers given. Find out what kind of triangle with these side lengths: equilateral, rectangular, isosceles or general. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/Triangle.cpp)
 
-Задания к 11.03.2021
-  1. ЦИФРА. Распечатайте первую цифру из дробной части вещественного положительного числа. [Решение](https://github.com/Alextwit/dev_incubator/blob/main/numeral.cpp)
-  2. УГАДАЙ ЧИСЛО. Разработайте игру: компьютер загадывает число и выдает подсказки ("больше-меньше") пользователю. [Решение](https://github.com/Alextwit/dev_incubator/blob/main/GuessTheNumber.cpp)
+Tasks by 11.03.2021
+  1. Numeral. Print the first digit from the fractional part of a real positive number. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/numeral.cpp)
+  2. Guess the number. Develop a game: the computer guesses a number and gives hints ("greater-less") to the user
+. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/GuessTheNumber.cpp)
