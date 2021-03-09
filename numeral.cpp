@@ -3,17 +3,17 @@
 using namespace std;
 
 int main() {
-	int n = 0;
-    double x;
+	int IntNumber = 0;
+	double EnteredNumber;
     
-    cout << "enter fractional number: ";
-    cin >> x;
+	cout << "enter fractional number: ";
+	cin >> EnteredNumber;
     
-    if (x > 0) {
-    	n = x;
-		x -= n;
-		n = x*10;
-		cout << "first fractional numeral is: " << n << endl;
+	if (EnteredNumber > 0) {
+    		IntNumber = EnteredNumber;
+		EnteredNumber -= IntNumber;
+		IntNumber = EnteredNumber * 10;
+		cout << "first fractional numeral is: " << IntNumber << endl;
 	} else {
 		cout << "number less than zero!" << endl;
 	}
