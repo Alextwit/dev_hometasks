@@ -3,16 +3,16 @@
 using namespace std;
 
 int main() {
-	int a = 0, b = 0, i, x;
+	int FirstNumber = 0, SecondNumber = 0, LeastCommonMultiple;
 	
 	cout << "enter first number: ";
-	cin >> a;
+	cin >> FirstNumber;
 	cout << "enter second number: ";
-	cin >> b;
+	cin >> SecondNumber;
 	
-	for ( int i = 2; i < a && i < b; i++) {
-		if ((a % i == 0) && (b % i == 0)) {
-			cout << "NOK: " << i << endl;
+	for (LeastCommonMultiple = 2; LeastCommonMultiple < FirstNumber && LeastCommonMultiple < SecondNumber; LeastCommonMultiple++) {
+		if ((FirstNumber % LeastCommonMultiple == 0) && (SecondNumber % LeastCommonMultiple == 0)) {
+			cout << "Least common multiple: " << LeastCommonMultiple << endl;
 			return 0;
 		}
 	}
