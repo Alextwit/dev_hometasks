@@ -6,19 +6,18 @@ using namespace std;
 
 int main() 
 {
-	int result = 0;
-	int s, i, n;
-//	s = from char to int
-//	i = value index
-//	n = power of two
-	string num;
+	int DecimalValue = 0;
+	int ValueInChar, ValueIndex, Degree;
+	string BinaryNumber;
+	
 	cout << "enter BINARY number: " << endl;
-	cin >> num;
-	for (i = 0, n = num.length() - 1; i < num.length(), n >= 0; i++, n--) {
-		s = num[i] - 48;
-		result += s *  pow(2, n);
+	cin >> BinaryNumber;
+	
+	for (ValueIndex = 0, Degree = BinaryNumber.length() - 1; ValueIndex < BinaryNumber.length(), Degree >= 0; ValueIndex++, Degree--) {
+		ValueInChar = BinaryNumber[ValueIndex] - 48;
+		DecimalValue += ValueInChar *  pow(2, Degree);
 	}
-	cout << "the resulting DECIMAL value: " << result << endl;
+	cout << "the resulting DECIMAL value: " << DecimalValue << endl;
 	
 	return 0;
 }
