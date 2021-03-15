@@ -15,5 +15,5 @@ Tasks by 11.03.2021
 . [Solution](https://github.com/Alextwit/dev_incubator/blob/main/GuessTheNumber.cpp)
 
 Tasks by 15.03.2021
-  1. Power. Develop a function that raises x to the n power. [Solution]()
+  1. Power. Develop a function that raises x to the n power. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/NumPowerFunction.cpp)
   2. Units. Find all natural numbers up to m whose binary notation consists of ones. [Solution]()
