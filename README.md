@@ -20,4 +20,4 @@ Tasks by 15.03.2021
 
 Tasks by 18.03.2021
   1. The number of fate. The digits of the full date of birth are added together until one digit is obtained. Design a function and calculate your fate number) [Solution](https://github.com/Alextwit/dev_incubator/blob/main/NumberOfFate.cpp)
-  2. Discharges. Develop a function that "flips" the integer passed to it, for example: 1234 -> 4321. [Solution]()
+  2. Discharges. Develop a function that "flips" the integer passed to it, for example: 1234 -> 4321. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/discharges.cpp)
