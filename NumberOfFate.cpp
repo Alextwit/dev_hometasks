@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int sumOfDateDigits (int year, int month, int day);
-int sumOfDigits (int number);
+int sumOfDigits (int enteredNumber);
 
 int main () {
 	
@@ -21,14 +20,14 @@ int main () {
 	return 0;
 }
 
-int sumOfDigits (int number) {
+int sumOfDigits (int enteredNumber) {
 	
-	int n = 0;
+	int digitsSum = 0;
 	
-	while (number != 0) {
-		n += number % 10;
-		number /= 10;
+	while (enteredNumber != 0) {
+		digitsSum += enteredNumber % 10;
+		enteredNumber /= 10;
 	}
 	
-	return n;
+	return digitsSum;
 }
