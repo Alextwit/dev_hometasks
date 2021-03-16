@@ -17,3 +17,7 @@ Tasks by 11.03.2021
 Tasks by 15.03.2021
   1. Power. Develop a function that raises x to the n power. [Solution](https://github.com/Alextwit/dev_incubator/blob/main/NumPowerFunction.cpp)
   2. Units. Find all natural numbers up to m whose binary notation consists of ones. [Solution](https://github.com/Alextwit/dev_incubator/edit/main/unitothersolution.cpp)
+
+Tasks by 18.03.2021
+  1. The number of fate. The digits of the full date of birth are added together until one digit is obtained. Design a function and calculate your fate number) [Solution]()
+  2. Discharges. Develop a function that "flips" the integer passed to it, for example: 1234 -> 4321. [Solution]()
