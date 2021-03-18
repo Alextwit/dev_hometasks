@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int chislo (int enteredNumber);
+int suitableNumbers (int enteredNumber);
 
 int main () {
 	
@@ -11,12 +11,12 @@ int main () {
 	cout << "enter last number: ";
 	cin >> enteredNumber;
 	
-	chislo(enteredNumber);
+	suitableNumbers(enteredNumber);
 	
 	return 0;
 }
 
-int chislo (int enteredNumber) {
+int suitableNumbers (int enteredNumber) {
 	
 	int digit = 0;
 	
