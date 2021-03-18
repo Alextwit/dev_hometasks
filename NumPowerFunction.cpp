@@ -24,7 +24,7 @@ int main () {
 	return 0;
 }
 
-double power () {
+double power(){
 		
 	if (PowerToCount >= 0) {
 		for (int c = 0; c < PowerToCount; c++) {
